@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Palmeiras Store</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sobre-loja" id="sobre">
+            <div class="container">
+                <div class="coluna imagem">
+                    <img src="./images/palmeiras front.jpg" alt="Imagem da Loja">
+                </div>
+                <div class="coluna texto">
+                    <h2>Sobre a Loja</h2><br>
+                    <p>Muito mais que uma loja online, somos o reduto oficial da torcida que canta e vibra.</p><br>
+                    <p>Aqui você encontra uniformes de jogo, coleções exclusivas, linhas casuais, artigos para presentes, entre outros. Tudo com condições especiais de pagamento.</p>
+                </div>
+            </div>
+        </section>
+        <section class="produtos" id="produtos">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="grid-produtos">
+                    <div class="produto">
+                        <img src="https://lojapalmeiras.vteximg.com.br/arquivos/ids/181253-380-380/_0069_777229_01.jpg?v=638418776090130000" alt="Produto 1">
+                        <h3>Camisa Palmeiras Puma II</h3>
+                        <p>Modelo Estádio 24/25</p>
+                        <h3>R$ 179,90</h3>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto">
+                        <img src="https://lojapalmeiras.vteximg.com.br/arquivos/ids/182880-380-380/_0051_777238_01.jpg?v=638434330594070000" alt="Produto 2">
+                        <h3>Camisa Palmeiras Puma I</h3>
+                        <p>Modelo Jogador - Feminino </p>
+                        <h3>R$ 499,90</h3>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto">
+                        <img src="https://lojapalmeiras.vteximg.com.br/arquivos/ids/181196-380-380/_0057_777235_01.jpg?v=638418775801830000" alt="Produto 3">
+                        <h3>Camisa Palmeiras Goleiro I Puma</h3>
+                        <p>Modelo Jogador 24/25</p>
+                        <h3>R$ 499,90</h3>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto">
+                        <img src="https://lojapalmeiras.vteximg.com.br/arquivos/ids/181206-380-380/_0059_777234_01.jpg?v=638418775847030000" alt="Produto 4">
+                        <h3>Camisa Palmeiras Goleiro II Puma</h3>
+                        <p>Modelo Jogador 24/25</p>
+                        <h3>R$ 499,90</h3>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
